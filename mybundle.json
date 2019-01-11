@@ -1,0 +1,66 @@
+{
+  "refs": {
+    "#/paths/~1server~1settings~1{server_id}": {
+      "def": {
+        "$ref": "./server/settings/serverId/index.yaml#/path"
+      },
+      "uri": "./server/settings/serverId/index.yaml#/path",
+      "uriDetails": {
+        "path": "./server/settings/serverId/index.yaml",
+        "fragment": "/path",
+        "reference": "relative"
+      },
+      "type": "relative",
+      "fqURI": "./server/settings/serverId/index.yaml#/path",
+      "error": "JSON Pointer points to missing location: ./server/settings/serverId/index.yaml#/path",
+      "missing": true
+    },
+    "#/paths/~1name": {
+      "def": {
+        "$ref": "./server/settings/serverId/name/index.yaml#/path"
+      },
+      "uri": "./server/settings/serverId/name/index.yaml#/path",
+      "uriDetails": {
+        "path": "./server/settings/serverId/name/index.yaml",
+        "fragment": "/path",
+        "reference": "relative"
+      },
+      "type": "relative",
+      "fqURI": "./server/settings/serverId/name/index.yaml#/path",
+      "error": "JSON Pointer points to missing location: ./server/settings/serverId/name/index.yaml#/path",
+      "missing": true
+    },
+    "#/components/parameters/ServerId": {
+      "def": {
+        "$ref": "./components/parameters/ServerId.yaml#/ServerId"
+      },
+      "uri": "./components/parameters/ServerId.yaml#/ServerId",
+      "uriDetails": {
+        "path": "./components/parameters/ServerId.yaml",
+        "fragment": "/ServerId",
+        "reference": "relative"
+      },
+      "type": "relative",
+      "fqURI": "./components/parameters/ServerId.yaml#/ServerId",
+      "error": "JSON Pointer points to missing location: ./components/parameters/ServerId.yaml#/ServerId",
+      "missing": true
+    }
+  },
+  "resolved": {
+    "paths": {
+      "/server/settings/{server_id}": {
+        "$ref": "./server/settings/serverId/index.yaml#/path"
+      },
+      "/name": {
+        "$ref": "./server/settings/serverId/name/index.yaml#/path"
+      }
+    },
+    "components": {
+      "parameters": {
+        "ServerId": {
+          "$ref": "./components/parameters/ServerId.yaml#/ServerId"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "jsonrefs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "dependencies": {
+    "js-yaml": "^3.12.1",
+    "json-refs": "^3.0.12"
+  }
+}

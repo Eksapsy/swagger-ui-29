@@ -1,0 +1,7 @@
+ServerId:
+  name: server_id
+  in: path
+  required: true
+  description: The server's id
+  schema:
+    type: string

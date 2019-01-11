@@ -1,0 +1,7 @@
+GuildId:
+  name: guild_id
+  in: path
+  required: true
+  description: The guild's id
+  schema:
+    type: string

@@ -1,0 +1,3 @@
+path:
+  parameters:
+    - $ref: '../../../index.yaml#/components/parameters/ServerId'

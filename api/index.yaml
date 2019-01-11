@@ -1,0 +1,9 @@
+paths:
+  /server/settings/{server_id}:
+    $ref: './api/server/settings/serverId/index.yaml#/path'
+  /name:
+    $ref: './api/server/settings/serverId/name/index.yaml#/path'
+components:
+  parameters:
+    ServerId:
+      $ref: './api/components/parameters/ServerId.yaml#/ServerId'
